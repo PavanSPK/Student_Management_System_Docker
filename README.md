@@ -27,12 +27,12 @@ student-management-docker/
 │── app.py
 │── Dockerfile
 │── README.md
-│── images/   
+│── screenshots/   
 ```
 
 -----------------------------------------------------------------------------------------------------
 
-## 3. Key Code Snippets (Simplified + Explained)
+## 3. Project Explanation
 
 ### **3.1 Database Connection**
 
@@ -132,6 +132,8 @@ docker network create student-network
 ```
 
 **Why?** Allows Python container to resolve PostgreSQL by container name (`my-postgres`).
+
+![network](https://github.com/PavanSPK/Student_Management_System_Docker/blob/f42e63d75fc513aaef77ba1b658b542a18137245/screenshots/network.png)
 
 -----------------------------------------------------------------------------------------------------
 
