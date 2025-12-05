@@ -182,17 +182,17 @@ docker run -it --rm --network student-network student-app
 ### Sample Interaction
 
 ```
-Enter Roll Number: S001
-Enter Name: Pavan
+Enter Roll Number: 4
+Enter Name: Kumar
 Enter Course: DevOps
-Enter Year: 1
+Enter Year: 3
 ```
 
 ![run](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/run.png)
 
 -----------------------------------------------------------------------------------------------------
 
-## 9. Push Image to Docker Hub (Short Steps)
+## 9. Push Image to Docker Hub
 
 ```bash
 docker login
