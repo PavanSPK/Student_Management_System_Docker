@@ -153,6 +153,10 @@ docker run -d \
 * `--name my-postgres` → must match Python `host`
 * Database automatically created at startup
 
+![postgresl](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/postgres.png)
+
+![ps](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/ps.png)
+
 -----------------------------------------------------------------------------------------------------
 
 ## 7. Build Python App Image
@@ -160,6 +164,12 @@ docker run -d \
 ```bash
 docker build -t student-app .
 ```
+
+![build](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/build.png)
+
+### Images
+
+![dockerimages](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/dockerimages.png)
 
 -----------------------------------------------------------------------------------------------------
 
@@ -178,6 +188,8 @@ Enter Course: DevOps
 Enter Year: 1
 ```
 
+![run](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/run.png)
+
 -----------------------------------------------------------------------------------------------------
 
 ## 9. Push Image to Docker Hub (Short Steps)
@@ -187,6 +199,8 @@ docker login
 docker tag student-app yourusername/student-app:latest
 docker push yourusername/student-app:latest
 ```
+
+![dockerhubpush](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/dockerhubpush.png)
 
 -----------------------------------------------------------------------------------------------------
 
@@ -224,5 +238,5 @@ docker rmi student-app
 -----------------------------------------------------------------------------------------------------
 
 ## Author
-
-Created as a learning project to demonstrate Docker networking and container communication.
+**PavanSPK**  
+GitHub: [@PavanSPK](https://github.com/PavanSPK) 
