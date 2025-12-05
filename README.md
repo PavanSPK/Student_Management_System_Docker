@@ -206,6 +206,16 @@ docker push yourusername/student-app:latest
 
 ![dockerhubpush](https://github.com/PavanSPK/Student_Management_System_Docker/blob/cc417b79bbb103f6301b252ed8eab478ad0c7a8a/screenshots/dockerhubpush.png)
 
+## Docker HUb Repository
+
+![dockerhub](https://github.com/PavanSPK/Student_Management_System_Docker/blob/b3e4654bb8dcf7d155bba5fce005ad1b53ac4713/screenshots/dockerhub.png)
+
+### Docker Pull
+
+```bash
+docker pull spk487/student-app
+```
+
 -----------------------------------------------------------------------------------------------------
 
 ## 10. Troubleshooting
