@@ -20,7 +20,7 @@ Both containers communicate over a custom Docker network.
 
 ## Project Architecture
 
-![project_architecture](https://github.com/PavanSPK/Student_Management_System_Docker/blob/e1c89127fe3583924aa6d0429d2be20a0b525309/screenshots/project_architecture.png)
+![project_architecture](https://github.com/PavanSPK/Student_Management_System_Docker/blob/806e19e853ddad11c88c303ef034d538c5306281/screenshots/project_architecture.png)
 
 -----------------------------------------------------------------------------------------------------
 
