@@ -220,9 +220,9 @@ PostgreSQL container is still starting; run again after 3–5 seconds.
 ## 11. Cleanup
 
 ```bash
-docker rm -f my-postgres
-docker network rm student-network
-docker rmi student-app
+docker rm -f my-postgres        # Force-remove the PostgreSQL container named "my-postgres"
+docker network rm student-network   # Delete the custom Docker network used for communication
+docker rmi student-app              # Remove the local Docker image you built for the Python app
 ```
 
 -----------------------------------------------------------------------------------------------------
