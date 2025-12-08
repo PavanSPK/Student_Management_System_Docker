@@ -252,5 +252,5 @@ docker rmi student-app              # Remove the local Docker image you built fo
 -----------------------------------------------------------------------------------------------------
 
 ## Author
-**PavanSPK**  
+**Sandu Pavan Kumar**  
 GitHub: [@PavanSPK](https://github.com/PavanSPK) 
